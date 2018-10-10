@@ -23,13 +23,17 @@
 
 <script>
 	window.menu = '${title}';
+	window.contextRoot = '${contextRoot}';
 </script>
 
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap Sandstone Theme -->
-<!-- <link href="${css}/bootstrap-sandstone-theme.css" rel="stylesheet"> -->
+<link href="${css}/bootstrap-sandstone-theme.css" rel="stylesheet">
+
+<!-- Bootstrap DataTables -->
+<link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
 <link href="${css}/myApp.css" rel="stylesheet">
@@ -71,6 +75,12 @@
 
 	<!-- Self coded javascript -->
 	<script src="${js}/myApp.js"></script>
+	
+	<!-- DataTable Plugin -->
+	<script src="${js}/jquery.dataTables.js"></script>
+	
+	<!-- DataTable Bootstrap Script -->
+	<script src="${js}/dataTables.bootstrap.js"></script>
 
 </body>
 
